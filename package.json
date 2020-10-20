@@ -1,0 +1,35 @@
+{
+  "name": "weapp-template",
+  "version": "0.0.0",
+  "description": "高质量微信小程序 UI 组件库",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "gulp --gulpfile build/build-dev.js",
+    "build": "gulp --gulpfile build/build-prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:upcwangying/weapp-template.git"
+  },
+  "author": "Ying Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upcwangying/weapp-template/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/upcwangying/weapp-template",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-less": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
+    "less": "^2.7.3"
+  }
+}
